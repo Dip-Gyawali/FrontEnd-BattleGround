@@ -1,9 +1,12 @@
 import React from 'react'
+import Editor from './Editor'
+import Screen from './Screen'
 
 export default function Content() {
   return (
-    <div>
-       <h1>This is FrondEnd battle Ground</h1>
+    <div className='home'>
+        <Editor/>
+        <Screen/>
     </div>
   )
 }
