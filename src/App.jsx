@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Content from './Components/Content';
 import Html from './Components/Html';
 import Css from './Components/Css';
-import Js from './Components/Js';
+import Js from './Components/Js'
 
 const route = createBrowserRouter([
   {

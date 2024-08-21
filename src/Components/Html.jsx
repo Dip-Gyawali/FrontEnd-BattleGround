@@ -1,20 +1,20 @@
-import React, { useState } from 'react';
+import React,{useContext} from 'react';
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/material.css';
 import 'codemirror/mode/xml/xml';
 import { Controlled as Code } from 'react-codemirror2';
+import { UserContext } from './Content';
 
 export default function Html() {
-  const [html, setHtml] = useState('');
 
+  const {hyperText,setHtml}= useContext(UserContext);
   function handleChange(editor, data, value) {
     setHtml(value);
   }
-
   return (
     <div className="code-editor">
       <Code
-        value={html}
+        value={hyperText}
         onBeforeChange={handleChange}
         className='editor-box'
         options={{

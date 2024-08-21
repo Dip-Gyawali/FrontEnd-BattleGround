@@ -23,7 +23,8 @@ export default function Editor() {
                     </li>
                 </ul>
             </nav>
-            <Outlet />
+            <Outlet/>
         </div>
     );
 }
+
