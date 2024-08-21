@@ -1,8 +1,13 @@
-# React + Vite
+# FrontEnd BattleGround
+ReactJs project..A code editor where you can write HTML,CSS and JavaScript . Practice Your HTML,CSS and JavaScript knowledge here, make mini projects, test your code here before 
+implementing in your real code
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Screenshots
 
-Currently, two official plugins are available:
+![App Screenshot](screenshot1.png)
+![App Screenshot](screenshot2.png)
+![App Screenshot](screenshot3.png)
+![App Screenshot](screenshot4.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Visit the website :
+[FrontEnd BattleGround](https://unrivaled-stroopwafel-ffa97e.netlify.app/)
